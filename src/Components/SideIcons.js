@@ -1,10 +1,10 @@
 import React from "react";
-import yt from '../img/YT.png'
+// import yt from '../img/YT.png'
 
 export default function SideIcons() {
   return (
     <>
-      <div className="p-1 py-3">
+      <div className="px-1 py-3">
         <ul className="flex-col items-center justify-start text-sm">
           <li>
             <a href="/" className="flex items-center justify-start py-1 px-2 w-[90%] hover:bg-slate-100 hover:cursor-pointer hover:rounded-md hover:font-medium">
@@ -39,7 +39,7 @@ export default function SideIcons() {
               <p className="px-5 text-[11px] font-light">History</p>
             </a>
           </li>
-          {/* <li>
+          <li>
             <a href="/" className="flex items-center justify-start py-1 px-2 w-[90%] hover:bg-slate-100 hover:cursor-pointer hover:rounded-md hover:font-medium">
               <i class="fa-solid fa-video"></i>
               <p className="px-5 text-[11px] font-light">Your Videos</p>
@@ -62,7 +62,7 @@ export default function SideIcons() {
               <i class="fa-solid fa-hard-drive"></i>
               <p className="px-5 text-[11px] font-light">Saved Playlists</p>
             </a>
-          </li> */}
+          </li>
           <div className="py-3">
             <hr/>
           </div>
@@ -136,19 +136,19 @@ export default function SideIcons() {
               <p className="px-5 text-[11px] font-light">Fashion & beauty</p>
             </a>
           </li>
-          <div className="py-3">
+          {/* <div className="py-3">
             <hr/>
-          </div>
-          <li>
+          </div> */}
+          {/* <li>
             <a href="/" className="flex items-center justify-start py-1 px-2 w-[90%] hover:bg-slate-100 hover:cursor-pointer hover:rounded-md hover:font-medium">
               <i class="fa-solid fa-circle-plus"></i>
               <p className="px-5 text-[11px] font-light flex">Browse Channels</p>
             </a>
-          </li>
+          </li> */}
           <div className="py-3">
             <hr/>
           </div>
-          <li>
+          {/* <li>
             <p className="px-2 pb-1 text-[12px]">More from YouTube</p>
             <a href="/" className="flex items-center justify-start py-1 px-2 w-[90%] hover:bg-slate-100 hover:cursor-pointer hover:rounded-md hover:font-medium">
               <img src={yt} alt="" className="w-[18px]"/>
@@ -168,7 +168,7 @@ export default function SideIcons() {
               <img src={yt} alt="" className="w-[18px]"/>
               <p className="px-4 text-[10px] font-light flex">YouTube Premium</p>
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>
